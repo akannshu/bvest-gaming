@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+body {
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  background: black;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+/*              Homepage Design             */
+
+.navbar {
+  background: transparent;
+  margin-bottom: 4rem;
+}
+
+.navbar-brand {
+  padding-left: 30px;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.navbar-brand:hover {
+  color: yellow;
+}
+
+.nav-item {
+  padding: 0em 1.3em;
+}
+
+.nav-link {
+  color: whitesmoke;
+  font-size: 1.1em;
+}
+
+.nav-link:hover {
+  color: yellow;
+}
+
+.heading .h1 {
+  font-size: 9vmin;
+  text-align: left;
+  font-weight: 700;
+  padding-left: 2rem;
+}
+
+.heading .p {
+  padding: 6rem 13vmin;
+  font-size: 3.5vmin;
+  text-align: left;
+  font-weight: bold;
+}
+
+.heading {
+  margin-bottom: 20vmin;
+}
+
+#myVideo {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  z-index: -999;
+  filter: grayscale(100%);
+}
+
+.events {
+  text-align: center;
+  padding: 5rem 5rem;
+}
+
+.events-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.langaming {
+  width: 25%;
+  float: left;
+  margin-right: 40px;
+  padding-bottom: 30px;
+
+
+}
+
+.arroom {
+  width: 25%;
+  float: right;
+  margin-left: 40px;
+  padding-bottom: 30px;
+
+}
+
+.bvpleague {
+  width: 25%;
+  float: left;
+  margin-right: 40px;
+  padding-bottom: 30px;
+
+}
+
+.touchmenot {
+  width: 25%;
+  float: right;
+  margin-left: 40px;
+  padding-bottom: 30px;
+
+}
+
+/* FAQs */
+.inteai-Faquestion {
+  display: grid;
+  margin: 1rem;
+  grid-template-areas: "question doter"
+    "divider divider"
+    "answser answser";
+  grid-template-rows: 1fr 0.4rem auto;
+  grid-template-columns: 7fr 1fr;
+  text-align: left;
+}
+
+h2 {
+  grid-area: question;
+  margin: 0;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+h2:hover {
+  color: yellow;
+}
+
+.inteai-faq-anwser {
+  grid-area: answser;
+  color: #eee;
+  text-align: left;
+  line-height: 2;
+}
+
+.show {
+  display: none;
+}
+
+.intelai-hori-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.intelai-faq {
+  position: relative;
+  padding-top: 10rem;
+
+}
+
+.intelai-faq {
+  background: black;
+  color: white;
+}
+
+.intelai-faq h1 {
+  margin: 0;
+  font-family: var(--main-font);
+  text-align: center;
+  font-size: 5rem;
+}
+
+.inteai-Faquestion h2 {
+  position: relative;
+}
+
+.inteai-Faquestion h2:after {
+  content: '+';
+  position: absolute;
+  right: 20px;
+  font-size: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+}
