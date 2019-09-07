@@ -22,6 +22,9 @@
           <!--navbar-->
           <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand" href="#">BVEST</a>
+
+            <a id="home-buton-anchor" href="#home"><i id="home-button" class="fas fa-home fa-lg"></i></a>
+
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
               aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -30,16 +33,16 @@
               <div class="navbar-nav mr-auto"></div>
               <ul class="navbar-nav">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-buttons nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#events">Events</a>
+                  <a class="nav-buttons nav-link" href="#events">Events</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#faq">FAQs</a>
+                  <a class="nav-buttons nav-link" href="#faq">FAQs</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#footer">Contact Us</a>
+                  <a class="nav-buttons nav-link" href="#footer">Contact Us</a>
                 </li>
               </ul>
             </div>
@@ -47,7 +50,7 @@
         </header>
       </div>
 
-      <div class="container-fluid text-center heading">
+      <div id="home" class="container-fluid text-center heading">
         <video src="Stock/opening.mov" autoplay muted loop id="myVideo"></video>
         <h1 class="h1">WELCOME</h1>
         <h1 class="h1">TO</h1>
@@ -64,36 +67,116 @@
 
   <!-- ************************************ Section 2 ************************************* -->
 
-  <div class="events" id="events">
-    <h1 style="font-weight: 600; font-size: 100px; color:red; margin-top:-5%;">GAMING EVENTS</h1>
+  <section id="events">
+
+    <h1>GAMING EVENTS</h1>
+
     <div class="events-row">
 
-      <video src="Stock/langaming.mov" autoplay muted loop preload class="langaming"></video>
-      <h3 class="lan-text">LAN GAMING</h3>
-      <p class="lan-p-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia quidem dolorem quisquam asperiores
-        suscipit
-        in placeat! Est expedita natus in.</p>
+      <div class="events-graphics-responsive">
+
+          <img class="events-graphics-responsive-image" src="./Stock/lan-gaming.jpg" alt="Image">
+
+      </div>
+
+      <div class="events-graphics">
+
+        <video src="Stock/langaming.mov" autoplay muted loop preload class="events-graphics-video langaming" height="400" width="400"></video>
+
+      </div>
+
+      <div class="events-content">
+
+        <h3 class="events-content-heading">LAN GAMING</h3>
+        <p class="events-content-paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia quidem
+          dolorem quisquam asperiores
+          suscipit
+          in placeat! Est expedita natus in.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="events-row">
+
+      <div class="events-graphics-responsive">
+
+        <img class="events-graphics-responsive-image" src="./Stock/ar-gaming.png" alt="Image">
+
+      </div>
+
+
+      <div class="events-content">
+
+        <h3 class="events-content-heading">AR ROOM</h3>
+        <p class="events-content-paragraph">An AR based escape room. We’ll have minigames or puzzles related to a
+          specific theme solving which will give us clues and we have to unlock the door using them.</p>
+
+      </div>
+
+      <div class="events-graphics">
+
+        <video src="Stock/arroom.mov" autoplay muted loop preload class="events-graphics-video arroom" height="400" width="400"></video>
+
+      </div>
+
     </div>
     <div class="events-row">
 
-      <video src="Stock/arroom.mov" autoplay muted loop preload class="arroom"></video>
-      <h3 class="ar-text">AR ROOM</h3>
-      <p class="ar-p-text">An AR based escape room. We’ll have minigames or puzzles related to a specific theme solving which will give us clues and we have to unlock the door using them.
-</p>
+
+      <div class="events-graphics-responsive">
+
+          <img class="events-graphics-responsive-image" src="./Stock/ipltrophy.jpg" alt="Image">
+
+      </div>
+
+
+      <div class="events-graphics">
+
+        <img src="Stock/ipltrophy.jpg" class="events-graphics-image bvpleague" height="400" width="400">
+
+      </div>
+
+
+      <div class="events-content">
+
+        <h3 class="events-content-heading">BVP LEAGUE</h3>
+        <p class="events-content-paragraph">Auction and Quiz for cricket lovers.</p>
+
+      </div>
+
     </div>
+
     <div class="events-row">
 
-      <img src="Stock/ipltrophy.jpg" class="bvpleague">
-      <h3 class="bl-text">BVP LEAGUE</h3>
-      <p class="bl-p-text">Auction and Quiz for cricket lovers.</p>
-    </div>
-    <div class="events-row">
 
-      <img src="Stock/touchmenot.jpg" class="touchmenot">
-      <h3 class="tmn-text">TOUCH ME NOT</h3>
-      <p class="tmn-p-text">The aim of this game is simple - to pass a loop through a wired path without touching the path.</p>
+      <div class="events-graphics-responsive">
+
+          <img class="events-graphics-responsive-image" src="./Stock/touchmenot.jpg" alt="Image">
+
+      </div>
+
+
+
+      <div class="events-content">
+
+        <h3 class="events-content-heading">TOUCH ME NOT</h3>
+        <p class="events-content-paragraph">The aim of this game is simple - to pass a loop through a wired path without
+          touching the path.</p>
+
+      </div>
+
+
+      <div class="events-graphics">
+
+        <img src="Stock/touchmenot.jpg" class="events-graphics-image touchmenot" height="400" width="400">
+
+      </div>
+
     </div>
-  </div>
+
+
+  </section>
 
 
   <!-- ************************************ Section 3 ************************************* -->
