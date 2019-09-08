@@ -89,6 +89,7 @@ body {
 {
   display: flex;
   flex-direction: column;
+  margin-top: 100px;
 }
 
 #events h1
@@ -325,7 +326,7 @@ h2:hover {
 .inteai-Faquestion h2:after {
   content: '+';
   position: absolute;
-  right: 0px;
+  right: -20px;
   font-size: 40px;
   top: 50%;
   transform: translateY(-50%);
@@ -400,6 +401,10 @@ h2:hover {
     /* border: 5px solid yellow; */
   }
 
+  #events
+  {
+    margin-top: -350px;
+  }
   #events h1
   {
     font-size: 5rem;
